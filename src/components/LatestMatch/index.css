@@ -1,0 +1,39 @@
+/* Write your CSS here */
+.latest-match-con {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70vw;
+  color: #fff;
+  background-color: #0f172a;
+  border-radius: 10px;
+  padding: 20px;
+}
+.lm-con1 {
+  width: 15vw;
+}
+
+.competing-team-logo-img {
+  height: 100px;
+  width: 100px;
+}
+
+.lm-con2 {
+  text-align: right;
+}
+.date-para {
+  font-size: 14px;
+}
+
+.first-innings-head {
+  font-size: 18px;
+}
+.lm-head {
+  font-size: 8px;
+}
+.lm-para {
+  font-size: 6px;
+}
+.lm-para1 {
+  font-size: 8px;
+}

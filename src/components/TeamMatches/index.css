@@ -1,0 +1,31 @@
+/* Write your CSS here */
+.team-matches-con {
+  background-image: linear-gradient(to bottom, #a4261d, #1e293b);
+  min-height: 100vh;
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.team-banner-img {
+  height: 200px;
+  width: 70vw;
+}
+
+.lm-title-para {
+  width: 70vw;
+  text-align: left;
+  color: #fff;
+  font-family: bree Serif;
+}
+.recent-match-ul {
+  width: 70vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding-left: 0px;
+}

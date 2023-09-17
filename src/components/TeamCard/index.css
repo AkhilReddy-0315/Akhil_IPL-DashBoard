@@ -1,0 +1,100 @@
+/* Write your CSS here */
+.teamCard-list-con {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  width: 300px;
+  border: 1px solid #fff;
+  margin: 5px;
+  border-radius: 10px;
+}
+
+.team-title {
+  font-size: 20px;
+  color: #fff;
+  font-family: Bree Serif;
+  width: 200px;
+  text-align: center;
+}
+
+.team-img {
+  height: 90px;
+  width: 100px;
+}
+.teamCard-link {
+  text-decoration: none;
+}
+
+@media (min-width: 1200px) {
+  .teamCard-list-con {
+    width: 400px;
+  }
+
+  .team-title {
+    font-size: 25px;
+    width: 260px;
+  }
+
+  .team-img {
+    width: 150px;
+  }
+}
+@media (max-width: 950px) {
+  .teamCard-list-con {
+    width: 200px;
+  }
+
+  .team-title {
+    font-size: 14px;
+    width: 150px;
+  }
+
+  .team-img {
+    width: 60px;
+  }
+}
+
+@media (max-width: 656px) {
+  .teamCard-list-con {
+    width: 150px;
+  }
+
+  .team-title {
+    font-size: 14px;
+    width: 100px;
+  }
+
+  .team-img {
+    width: 50px;
+  }
+}
+
+@media (max-width: 576px) {
+  .teamCard-list-con {
+    width: 130px;
+  }
+
+  .team-title {
+    font-size: 10px;
+    width: 90px;
+  }
+
+  .team-img {
+    width: 40px;
+  }
+}
+
+@media (max-width: 460px) {
+  .teamCard-list-con {
+    width: 200px;
+  }
+
+  .team-title {
+    font-size: 14px;
+    width: 150px;
+  }
+
+  .team-img {
+    width: 60px;
+  }
+}
